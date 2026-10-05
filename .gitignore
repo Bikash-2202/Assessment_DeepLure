@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+dataset/raw/*
+dataset/processed/*
+dataset/split/*
+
+# Model files
+models/*.pth
+models/*.pt
+
+# Results
+results/plots/*
+results/metrics/*
+results/confusion_matrix/*
+
+# OS
+.DS_Store
+Thumbs.db
